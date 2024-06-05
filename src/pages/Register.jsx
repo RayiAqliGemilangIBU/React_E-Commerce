@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { Footer, Navbar } from "../components";
 import { Link } from 'react-router-dom';
-import { TextField, Button } from '@material-ui/core';
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+
 
 const Register = () => {
     const [name, setName] = useState('');
